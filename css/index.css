@@ -1,0 +1,189 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 12;
+    padding: 12;
+    background-color: #b7acac;
+}
+
+header {
+    background-color: #b7acac;
+    color: #ffe3e3;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+nav button {
+    background-color: #fff;
+    color: #d32eb8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button.active {
+    background-color: #3a3f45;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    
+    color: #030e1b;
+    background-color: #ffffff39;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff39;
+    color: #000000;
+}
+h3 {
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+
+.triangle-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.triangle-container img {
+    width: 200px;
+}
+
+.calculate-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-group label {
+    font-weight: bold;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculate-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #090909;
+    color: #fff;
+    cursor: pointer;
+}
+
+.calculate-form button:hover {
+    background-color: #313539;
+}
+
+.calculate-form button:disabled {
+    background-color: #513434;
+    cursor: not-allowed;
+}
+
+.result-container {
+    text-align: center;
+}
+
+.result-container p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.formula{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.triangle-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.triangle-image{
+    width: 300px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+#steps {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.step {
+    margin-bottom: 5px;
+}
+
+/* Basic styling for the container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Styling for the input groups */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Styling for the button group */
+.button-group {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Styling for the result paragraph */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}

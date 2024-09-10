@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project Kalkulator Segitiga Alan</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Kalkulator Segitiga Sederhana</h1>
+        <p>Hai kawan kawan, ini adalah tugas mini project by Revou</p>
+        <p>Web ini adalah web sederhana yang dibuat untuk menghitung luas dan keliling segitiga</p>
+        
+        <div class="Segitiga">
+            <h2>Menghitung Nilai Luas Segitiga</h2> 
+        </div>
+       
+    </header>
+
+    <main>
+        <section class="container">
+            <h3>Luas Segitiga</h3>
+            <div class="triangle-container">
+                <img src="https://4.bp.blogspot.com/-nf5ZfTjnS2E/Tz86juCUBVI/AAAAAAAABIw/BpYqXyLu34Q/s1600/rumus+luas+segitiga+sama+kaki.jpeg" alt="Segitiga" class="triangle-image">
+            </div>
+            <p>Rumus Luas Segitiga :</p>
+            <p class="formula">L= 1/2 x a x t</p>
+            <p>Dimana</p>
+            <ul>
+                <li>L = luas</li>
+                <li>a = Panjang alas</li>
+                <li>t = Tinggi</li>
+            </ul>
+
+            <form class="calculate-form">
+                <div class="input-group">
+                    <label for="alas">Alas (a)</label>
+                    <input type="number" id="alas" name="alas" required>
+                </div>
+                <div class="input-group">
+                    <label for="tinggi">Tinggi (t)</label>
+                    <input type="number" id="tinggi" name="tinggi" required>
+                </div>
+                <button type="submit">Hitung</button>
+                <button type="reset">Reset</button>
+            </form>
+            <div class="result-container">
+                <p>Luas Segitiga:</p>
+                <p id="Luas">..</p>
+                <div id="steps"></div>
+            </div>
+            </section>
+    </main>
+</body>
+</html>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Keliling Segitiga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Segitiga">
+        <h2>Menghitung Nilai Keliling Segitiga</h2> 
+    </div>
+
+    <section class="container">
+        <h3>Keliling Segitiga</h3>
+        <div class="triangle-container">
+            <img src="https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/2021/01/15/1853786887.jpg" alt="Segitiga" class="triangle-image">
+        </div>
+        <p>Rumus Keliling Segitiga</p>
+        <p class="formula">K = a + b + c</p>
+        <p>Dimana</p>
+        <ul>
+            <li>a = Panjang sisi pertama</li>
+            <li>b = Panjang sisi kedua</li>
+            <li>c = Panjang sisi ketiga</li>
+        </ul>
+        <form class="calculate-form" id="triangleForm">
+            <div class="input-group">
+                <label for="a">Panjang Sisi Pertama (a)</label>
+                <input type="number" id="a" name="a" required>
+            </div>
+            <div class="input-group">
+                <label for="b">Panjang Sisi Kedua (b)</label>
+                <input type="number" id="b" name="b" required>
+            </div>
+            <div class="input-group">
+                <label for="c">Panjang Sisi Ketiga (c)</label>
+                <input type="number" id="c" name="c" required>
+            </div>
+                <button type="submit">Hitung</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        <p id="result"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
